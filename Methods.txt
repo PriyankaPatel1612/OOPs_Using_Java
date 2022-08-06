@@ -1,0 +1,15 @@
+Methods
+
+# a set of codes which performs a perticular task.
+
+-->advantages
+
+# code reustability 
+# code optimization
+
+-->syntax
+
+# access-modifier return-type methodName (list of parameters)
+{
+    //code
+}

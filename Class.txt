@@ -1,0 +1,17 @@
+Class
+
+# class is the collection of objects. 
+# class is not the real world entity.
+# class doesn't occupy memory.
+# class is used as template or bluprint or prototype
+
+-->syntax
+
+acces-modifier class ClassName
+{
+    //methods
+    //constructors
+    //fields
+    //blocks
+    //nested classes
+}
