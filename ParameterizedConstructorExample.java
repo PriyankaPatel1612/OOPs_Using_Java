@@ -7,6 +7,7 @@ public class ParameterizedConstructorExample {
     public static void main(String[] args) {
         String fname;
         String lname;
+
         try (Scanner sc = new Scanner(System.in)) {
             System.out.println("Enter your First Name : ");
             fname = sc.next();
@@ -15,10 +16,11 @@ public class ParameterizedConstructorExample {
         }
         ParameterizedConstructorExample obj = new ParameterizedConstructorExample(fname,lname);
         System.out.println(obj.firstName + " " + obj.lastName);
+        
     }
     
-    ParameterizedConstructorExample(String fname, String lname){
- 
+    ParameterizedConstructorExample(String fname, String lname){         //parameterized constructor
+    
         this.firstName=fname;
         this.lastName=lname;
 
